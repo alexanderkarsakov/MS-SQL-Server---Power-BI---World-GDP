@@ -15,7 +15,7 @@ Flags NVARCHAR(200)
 )
 
 BULK INSERT Data
-FROM 'C:\Users\alexa\datasets\data.csv'
+FROM 'C:\...\data.csv'
 WITH ( FORMAT='CSV');
 
 SELECT * FROM Data
@@ -51,7 +51,7 @@ Flags NVARCHAR(200)
 
 
 BULK INSERT Data
-FROM 'C:\Users\alexa\datasets\data.csv'
+FROM 'C:\...\data.csv'
 WITH ( FORMAT='CSV');
 
 
